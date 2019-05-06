@@ -10,17 +10,17 @@ body {
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: url('assets/freedom.jpg') no-repeat center;
-  background-size: cover;
+  background-size: cover ;
   color: #333;
 }
 
 .wrapper {
   padding-top: 4rem;
   width: 80vw;
-	height: 60vw;
+	height: calc(100vh-5vh);
   margin: 0 auto;
   text-align: center;
 }
@@ -58,9 +58,8 @@ body {
 .wrapper2 {
   min-height: 100vh;
   position: relative;
-  padding-bottom: 50px; /* Equals height of the footer and pushes away the content in the case they would touch. */
+padding-bottom: 50px; /* Equals height of the footer and pushes away the content in the case they would touch. */
   vertical-align: middle;
-}
 }
 @media (min-width: 768px) {
 padding-top:25%;
