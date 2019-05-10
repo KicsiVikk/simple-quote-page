@@ -27,7 +27,7 @@ body {
 
 .quote {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 1.5rem; 
+  font-size: 1.25rem; 
 }
 
 .author {
@@ -78,6 +78,9 @@ footer {
 @media (min-width: 768px) {
 .wrapper {
 	padding-top:10%;
+	}
+.quote {
+		font-size: 1.5rem;
 	}
 footer {
 		 text-align: center;
